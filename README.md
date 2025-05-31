@@ -1,4 +1,4 @@
-# redux-toolkit 🔥
+# Redux-Toolkit-React 🔥
 
 This is a simple **Bookmark Manager** built with **React**, **Redux Toolkit**, and **TypeScript**. It allows users to add and delete bookmarks, demonstrating clean Redux architecture **with Redux Toolkit**.
 
@@ -31,7 +31,7 @@ This is a simple **Bookmark Manager** built with **React**, **Redux Toolkit**, a
 - React (v18+)
 - Redux Toolkit
 - TypeScript
-- redux-toolkit
+- Redux-Toolkit-React
 
 ---
 
