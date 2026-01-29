@@ -52,7 +52,7 @@ src/
 
 1.  **Clone the Repository**
     ```bash
-    git clone https://github.com/noelregis718/Redux-Toolkit-React.git
+    git clone https://github.com/noelregis718/Bookmark-Manager.git
     cd Redux-Toolkit-React
     ```
 
