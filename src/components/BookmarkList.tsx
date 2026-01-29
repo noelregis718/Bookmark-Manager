@@ -1,9 +1,9 @@
-import React from "react";
+import type { FC } from "react";
 import { useSelector } from "react-redux";
 import type { AppState } from "../store";
 import BookmarkItem from "./BookmarkItem";
 
-const BookmarkList: React.FC = () => {
+const BookmarkList: FC = () => {
   const bookmarks = useSelector((state: AppState) => state.bookmark.bookmarks);
 
   if (bookmarks.length === 0) {

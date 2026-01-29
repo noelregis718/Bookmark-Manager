@@ -1,16 +1,17 @@
-import React, { useState } from "react";
+import { useState } from "react";
+import type { FC, FormEvent } from "react";
 import { useDispatch } from "react-redux";
 import { addBookmark } from "../redux/features/bookmark";
 import type { Bookmark } from "../redux/types/BookmarkType";
 import type { AppDispatch } from "../store";
 
-const BookmarkForm: React.FC = () => {
+const BookmarkForm: FC = () => {
   const dispatch: AppDispatch = useDispatch();
 
   const [title, setTitle] = useState("");
   const [url, setUrl] = useState("");
 
-  function handleSubmit(e: React.FormEvent) {
+  function handleSubmit(e: FormEvent) {
     e.preventDefault();
 
     if (!title.trim() || !url.trim()) return;

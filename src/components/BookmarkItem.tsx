@@ -1,4 +1,4 @@
-import React from "react";
+import type { FC } from "react";
 import { useDispatch } from "react-redux";
 import { removeBookmark } from "../redux/features/bookmark";
 import type { Bookmark } from "../redux/types/BookmarkType";
@@ -8,7 +8,7 @@ interface Props {
   bookmark: Bookmark;
 }
 
-const BookmarkItem: React.FC<Props> = ({ bookmark }) => {
+const BookmarkItem: FC<Props> = ({ bookmark }) => {
   const dispatch: AppDispatch = useDispatch();
 
   return (
