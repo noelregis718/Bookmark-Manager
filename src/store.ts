@@ -1,3 +1,7 @@
+/**
+ * Author: Noel Regis
+ * GitHub: https://github.com/noelregis718
+ */
 import { configureStore } from "@reduxjs/toolkit";
 import bookmark from "./redux/features/bookmark";
 

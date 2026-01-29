@@ -10,6 +10,9 @@ const App: React.FC = () => {
       </h1>
       <BookmarkForm />
       <BookmarkList />
+      <footer className="mt-8 pt-4 border-t border-gray-100 text-center text-gray-500 text-sm italic">
+        Created by Noel Regis
+      </footer>
     </div>
   );
 };

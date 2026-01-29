@@ -1,3 +1,7 @@
+/**
+ * Author: Noel Regis
+ * GitHub: https://github.com/noelregis718
+ */
 import { createRoot } from "react-dom/client";
 import "./index.css";
 import App from "./App.tsx";
